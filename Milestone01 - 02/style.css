@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(95, 172, 196);
+}
+.r-container{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.l-section{
+    
+    
+    color: black;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-right: 2px solid black;
+
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+h1{
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    border: black;
+    box-shadow: 0 0 15px #070505;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+ul li{
+    margin: 5px 0;
+}
+.r-section{
+    padding: 20px;
+    width: 65%;
+    border-radius: 10px;
+    
+}
+button{
+     background-color: #424bc9;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; 
+
+}
+button:hover{
+    background-color: #e63946;
+}
+#skills {
+    display: block; /* or 'none' if you want to hide it by default */
+}
